@@ -1,0 +1,385 @@
+{
+  "panel": {
+    "rows": 1089,
+    "commodities": 9,
+    "start": "2014-09-01",
+    "end": "2026-06-01"
+  },
+  "garch": {
+    "Beans": {
+      "omega": 3.2100541802057996,
+      "alpha": 4.193069482955792e-12,
+      "beta": 0.9882223959783722,
+      "persistence": 0.9882223959825653,
+      "nu_df": 2.676735540220443,
+      "aic": 953.4168856080877,
+      "mean_ann_vol_pct": 57.36059001612541,
+      "latest_ann_vol_pct": 57.26754986541972,
+      "latest_regime": "Calm",
+      "calm_threshold": 57.370848149877204,
+      "high_threshold": 57.44719343549992,
+      "n_obs": 120,
+      "near_igarch": false
+    },
+    "Groundnut": {
+      "omega": 0.5542996077056426,
+      "alpha": 0.0,
+      "beta": 0.9795594597602808,
+      "persistence": 0.9795594597602808,
+      "nu_df": 5.071108893268173,
+      "aic": 879.0609815336661,
+      "mean_ann_vol_pct": 32.42719703661238,
+      "latest_ann_vol_pct": 22.48496425782282,
+      "latest_regime": "Calm",
+      "calm_threshold": 33.35563224783709,
+      "high_threshold": 42.19654590035862,
+      "n_obs": 120,
+      "near_igarch": false
+    },
+    "Millet": {
+      "omega": 4.402181063314669,
+      "alpha": 0.0,
+      "beta": 0.959451840656183,
+      "persistence": 0.959451840656183,
+      "nu_df": 6.450439535257869,
+      "aic": 941.6777534488767,
+      "mean_ann_vol_pct": 41.42139648644807,
+      "latest_ann_vol_pct": 36.315294137337546,
+      "latest_regime": "Calm",
+      "calm_threshold": 40.12763643522174,
+      "high_threshold": 48.53857390396651,
+      "n_obs": 120,
+      "near_igarch": false
+    },
+    "Palm oil": {
+      "omega": 24.363518716635618,
+      "alpha": 0.8099051371067162,
+      "beta": 0.19009486289328392,
+      "persistence": 1.0,
+      "nu_df": 3.1724332404461046,
+      "aic": 870.6204858430821,
+      "mean_ann_vol_pct": 33.05060765230396,
+      "latest_ann_vol_pct": 19.121546437932032,
+      "latest_regime": "Calm",
+      "calm_threshold": 29.243330788030317,
+      "high_threshold": 45.643410058150366,
+      "n_obs": 125,
+      "near_igarch": true
+    },
+    "Rice (imported)": {
+      "omega": 244.3995527714703,
+      "alpha": 0.9047943898877661,
+      "beta": 0.09520561011223397,
+      "persistence": 1.0,
+      "nu_df": 2.120590708662295,
+      "aic": 893.407263248658,
+      "mean_ann_vol_pct": 65.26611057671931,
+      "latest_ann_vol_pct": 70.35538026364894,
+      "latest_regime": "High",
+      "calm_threshold": 60.24574003959,
+      "high_threshold": 67.45839629948337,
+      "n_obs": 129,
+      "near_igarch": true
+    },
+    "Rice (local)": {
+      "omega": 82.75408116014233,
+      "alpha": 0.42679927556387354,
+      "beta": 0.5732007244361265,
+      "persistence": 1.0,
+      "nu_df": 2.1354067212517824,
+      "aic": 826.4594766572276,
+      "mean_ann_vol_pct": 59.198695949356434,
+      "latest_ann_vol_pct": 57.50257043263434,
+      "latest_regime": "Elevated",
+      "calm_threshold": 53.135594574377,
+      "high_threshold": 64.5352560036014,
+      "n_obs": 120,
+      "near_igarch": true
+    },
+    "Sorghum": {
+      "omega": 25.278977901086343,
+      "alpha": 0.20429272728415918,
+      "beta": 0.6897919159041928,
+      "persistence": 0.8940846431883519,
+      "nu_df": 3.2986576427070395,
+      "aic": 880.3749276939468,
+      "mean_ann_vol_pct": 44.46770823089236,
+      "latest_ann_vol_pct": 48.91446767219023,
+      "latest_regime": "Elevated",
+      "calm_threshold": 42.01885000973188,
+      "high_threshold": 55.16818479052737,
+      "n_obs": 115,
+      "near_igarch": false
+    },
+    "Vegetable oil": {
+      "omega": 62.23435107498407,
+      "alpha": 0.8418117735423138,
+      "beta": 0.1581882264576862,
+      "persistence": 1.0,
+      "nu_df": 2.5353790492793378,
+      "aic": 869.4214187519734,
+      "mean_ann_vol_pct": 43.3396922450563,
+      "latest_ann_vol_pct": 39.64930406746762,
+      "latest_regime": "Elevated",
+      "calm_threshold": 38.96920658697295,
+      "high_threshold": 57.1200175200131,
+      "n_obs": 120,
+      "near_igarch": true
+    },
+    "Yam": {
+      "omega": 111.64748527505242,
+      "alpha": 0.5076867868294541,
+      "beta": 1.1134596273746922e-14,
+      "persistence": 0.5076867868294652,
+      "nu_df": 3.9925226004595302,
+      "aic": 1106.175207455196,
+      "mean_ann_vol_pct": 46.049636602264016,
+      "latest_ann_vol_pct": 44.09860954961943,
+      "latest_regime": "Elevated",
+      "calm_threshold": 42.23435708822782,
+      "high_threshold": 57.703257003635784,
+      "n_obs": 141,
+      "near_igarch": false
+    }
+  },
+  "seasonal_peak_month": {
+    "Beans": {
+      "month_num": 8,
+      "seasonal_pct": 10.7
+    },
+    "Groundnut": {
+      "month_num": 8,
+      "seasonal_pct": 10.65
+    },
+    "Millet": {
+      "month_num": 8,
+      "seasonal_pct": 15.79
+    },
+    "Palm oil": {
+      "month_num": 12,
+      "seasonal_pct": 7.0
+    },
+    "Rice (imported)": {
+      "month_num": 8,
+      "seasonal_pct": 3.37
+    },
+    "Rice (local)": {
+      "month_num": 8,
+      "seasonal_pct": 7.24
+    },
+    "Sorghum": {
+      "month_num": 8,
+      "seasonal_pct": 13.78
+    },
+    "Vegetable oil": {
+      "month_num": 4,
+      "seasonal_pct": 5.07
+    },
+    "Yam": {
+      "month_num": 7,
+      "seasonal_pct": 15.05
+    }
+  },
+  "backtest": {
+    "event_definition": ">10% real price rise over 3 months",
+    "naive_equal_weight": {
+      "auc": 0.5829848987743724,
+      "base_rate_pct": 26.148409893992934,
+      "n": 849,
+      "top_quintile_hit_rate_pct": 33.52941176470588,
+      "lift_top_quintile": 1.2822734499205084,
+      "quintiles": [
+        {
+          "q": 1,
+          "n": 171,
+          "hit_rate": 16.96,
+          "mean_future_ret": -1.3
+        },
+        {
+          "q": 2,
+          "n": 169,
+          "hit_rate": 23.67,
+          "mean_future_ret": 2.01
+        },
+        {
+          "q": 3,
+          "n": 169,
+          "hit_rate": 27.22,
+          "mean_future_ret": 2.44
+        },
+        {
+          "q": 4,
+          "n": 170,
+          "hit_rate": 29.41,
+          "mean_future_ret": 3.01
+        },
+        {
+          "q": 5,
+          "n": 170,
+          "hit_rate": 33.53,
+          "mean_future_ret": 5.43
+        }
+      ]
+    },
+    "learned_walkforward": {
+      "auc": 0.6078022574764361,
+      "base_rate_pct": 28.551336146272853,
+      "n": 711,
+      "top_quintile_hit_rate_pct": 50.0,
+      "lift_top_quintile": 1.751231527093596,
+      "quintiles": [
+        {
+          "q": 1,
+          "n": 143,
+          "hit_rate": 22.38,
+          "mean_future_ret": -0.98
+        },
+        {
+          "q": 2,
+          "n": 142,
+          "hit_rate": 20.42,
+          "mean_future_ret": 2.0
+        },
+        {
+          "q": 3,
+          "n": 142,
+          "hit_rate": 23.24,
+          "mean_future_ret": 3.38
+        },
+        {
+          "q": 4,
+          "n": 142,
+          "hit_rate": 26.76,
+          "mean_future_ret": 1.61
+        },
+        {
+          "q": 5,
+          "n": 142,
+          "hit_rate": 50.0,
+          "mean_future_ret": 11.33
+        }
+      ]
+    },
+    "walkforward_start": "2019-06-01",
+    "n_walkforward_predictions": 711
+  },
+  "coefficients": {
+    "fx_vol_12m": -0.668,
+    "z12": -0.417,
+    "vol_chg": -0.164,
+    "fx_mom_3m": -0.145,
+    "mom_6m": -0.139,
+    "vol_ann": -0.03,
+    "mom_12m": -0.02,
+    "rel_strength": -0.016,
+    "mom_3m": 0.044,
+    "mkt_mom_3m": 0.082,
+    "sin_m": 0.347,
+    "trend_gap": 0.351,
+    "cos_m": 0.354,
+    "seasonal_risk": 0.529,
+    "pos_12m": 0.543,
+    "fx_mom_12m": 1.074
+  },
+  "current_status": [
+    {
+      "item": "Beans",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 335.6733564799,
+      "prob": 0.5733689106,
+      "mom_3m": 6.3090343255,
+      "vol_ann": 57.2675498654,
+      "seasonal_risk": 7.6074950036,
+      "regime": "Calm",
+      "risk_level": "Elevated"
+    },
+    {
+      "item": "Sorghum",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 118.5677493739,
+      "prob": 0.5363114577,
+      "mom_3m": 20.703125,
+      "vol_ann": 48.9144676722,
+      "seasonal_risk": 13.2953856984,
+      "regime": "Elevated",
+      "risk_level": "Elevated"
+    },
+    {
+      "item": "Millet",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 149.0287693774,
+      "prob": 0.5127907072,
+      "mom_3m": 22.2503477924,
+      "vol_ann": 36.3152941373,
+      "seasonal_risk": 10.4002897196,
+      "regime": "Calm",
+      "risk_level": "Elevated"
+    },
+    {
+      "item": "Rice (local)",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 356.086962521,
+      "prob": 0.4925417118,
+      "mom_3m": 20.2675746177,
+      "vol_ann": 57.5025704326,
+      "seasonal_risk": 5.8350768405,
+      "regime": "Elevated",
+      "risk_level": "Elevated"
+    },
+    {
+      "item": "Groundnut",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 565.1066607406,
+      "prob": 0.4554646182,
+      "mom_3m": 13.6363636364,
+      "vol_ann": 22.4849642578,
+      "seasonal_risk": 6.4685834919,
+      "regime": "Calm",
+      "risk_level": "Elevated"
+    },
+    {
+      "item": "Vegetable oil",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 828.8231024196,
+      "prob": 0.3899466362,
+      "mom_3m": 0.0,
+      "vol_ann": 39.6493040675,
+      "seasonal_risk": 3.1096192181,
+      "regime": "Elevated",
+      "risk_level": "Watch"
+    },
+    {
+      "item": "Yam",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 432.645659463,
+      "prob": 0.3830776557,
+      "mom_3m": 14.2431935569,
+      "vol_ann": 44.0986095496,
+      "seasonal_risk": 0.9113242146,
+      "regime": "Elevated",
+      "risk_level": "Watch"
+    },
+    {
+      "item": "Rice (imported)",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 473.6132013826,
+      "prob": 0.3704666039,
+      "mom_3m": 0.0,
+      "vol_ann": 70.3553802636,
+      "seasonal_risk": 7.681835546,
+      "regime": "High",
+      "risk_level": "Watch"
+    },
+    {
+      "item": "Palm oil",
+      "month": "2026-06-01T00:00:00.000",
+      "price_real_kg": 850.2349184475,
+      "prob": 0.2576607333,
+      "mom_3m": 2.5834,
+      "vol_ann": 19.1215464379,
+      "seasonal_risk": -1.2217917022,
+      "regime": "Calm",
+      "risk_level": "Watch"
+    }
+  ]
+}

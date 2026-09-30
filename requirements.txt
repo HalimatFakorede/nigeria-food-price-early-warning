@@ -1,0 +1,9 @@
+streamlit>=1.30,<2
+pandas>=2.0,<3
+numpy>=1.26,<3
+requests>=2.31
+matplotlib>=3.8,<4
+statsmodels>=0.14,<1
+arch>=6.3,<9
+scikit-learn>=1.4,<2
+plotly>=5.18,<7
