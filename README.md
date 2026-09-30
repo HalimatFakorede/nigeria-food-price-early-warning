@@ -3,7 +3,7 @@
 Tracking volatility and forecasting price shocks across 9 staple foods, 68 markets and 14 Nigerian states, with the warning signal properly tested.
 
 *Halimat H. Fakorede, Agricultural Data Scientist and Operations Analyst*
-[Live dashboard](#) | [LinkedIn](https://linkedin.com/in/halimatfakorede) | [Portfolio](#)
+[Live dashboard](https://nigeria-food-price-early-warning.streamlit.app) | [LinkedIn](https://linkedin.com/in/halimatfakorede)
 
 ---
 
